@@ -6,7 +6,6 @@ import {
   Route,
 } from "react-router-dom";
 import { Helmet } from 'react-helmet';
-import { Helmet } from 'react-helmet';
 import Main from './Main';
 
 function App() {
