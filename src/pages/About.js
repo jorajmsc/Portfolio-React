@@ -14,12 +14,11 @@ function About() {
       <nav className="nav-bar-container make-sticky">
         <div className="logo-head"><span>JR</span></div>
         <div className="nav-items">
-          <div className="item">Home</div>
-          <div className="item">About</div>
-          <div className="item">Projects</div>
-          <div className="item">Vision</div>
-          
-          <div className="item">Contact</div>
+          <div className="item"><a href='/'>Home</a></div>
+          <div className="item"><a href='/about'>About</a></div>
+          <div className="item"><a href='/projects'>Projects</a></div>
+          <div className="item"><a href='/vision'>Vision</a></div>
+          <div className="item"><a href='/contact'>Contact</a></div>
         </div>
       </nav>
 
@@ -125,15 +124,15 @@ function About() {
         </div>
 
         <div className='cert-holder'>
-          <img src='https://www.nasscomfoundation.org/images/nasscom-logo.svg'></img>
-          <h4>Nasscom Foundation</h4>
-          <p>Certified Programmer in Python</p>
+          <img src='career_avenues.jpg'></img>
+          <h4>Career Avenues</h4>
+          <p>Workshop in Logic Building & Interview Prepration</p>
         </div>
 
         <div className='cert-holder'>
-          <img src='google_analytics.png'></img>
-          <h4>Google LLC</h4>
-          <p>Certified Programmer in Data Analytics with Google</p>
+          <img src='ms_logo.png'></img>
+          <h4>Microsoft Corporation</h4>
+          <p>Workshop in Devops & Webrtc p2p mechanism</p>
         </div>
 
         </div>

@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import About from './pages/About';
 import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 import App from './App';
 
 const Main = () => {
@@ -11,6 +12,7 @@ const Main = () => {
       {/* The Routes decides which component to show based on the current URL. */}
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="*" element={<NotFound />}/>
     </Routes>
   );
 };
