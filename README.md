@@ -1,7 +1,7 @@
 # Portfolio for EPD
 
 You can access it via the link below :
-https://www.portfolio-react-weld-ten.vercel.app
+portfolio-react-weld-ten.vercel.app
 
 # portfolio-react-weld-ten.vercel.app
 
