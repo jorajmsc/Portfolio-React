@@ -465,8 +465,10 @@ a{
 .top-holder{
   display: flex;
   justify-content: space-evenly;
-  align-items: start;
+  align-items: center;
   text-align: start;
+  margin-top: 50px;
+  margin-bottom:  50px;
 }
 
 .touch{
@@ -486,4 +488,90 @@ a{
 
 .element-pin i{
   color: white;
+}
+
+.map-emb iframe{
+  border: none;
+}
+
+.map-emb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  padding: 50px;
+}
+
+.map-emb form{
+  width: 100%;
+  padding: 50px;
+}
+
+#contactForm h1{
+  text-align: center;
+}
+
+.divider{
+  width: 95%;
+  height: 1px;
+  background-color: #aeb4c7;
+}
+
+.map-emb h2 {
+  margin-top: 0;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.map-emb label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.map-emb input, textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.map-emb textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.social-contact i{
+  margin-top: 40px;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.social-contact i:hover{
+  color: var(--main-color);
 }
