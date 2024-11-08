@@ -51,6 +51,7 @@ a{
   color: black;
   height: 55px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  z-index: 999;
 }
 
 .make-sticky{
@@ -93,7 +94,6 @@ a{
 
 
 
-
 /*  HERO  */
 
 .l-item{
@@ -106,7 +106,10 @@ a{
   font-weight: 700;
   font-size: 60px;
   margin-bottom: 30px;
+  overflow: hidden;
+  white-space: nowrap;
 }
+
 
 .l-item h2{
   font-weight: 600;
@@ -131,6 +134,7 @@ a{
     place-items: center;
     background-repeat: no-repeat;
     background-size: 100 vh;
+    overflow: hidden;
 }
 
 .hero-container{
@@ -144,6 +148,7 @@ a{
   border-radius: 25px;
   margin-left: 150px;
 }
+
 
 .l-item a{
   background-color: var(--main-color);
@@ -195,6 +200,11 @@ a{
   width: 30px;
   height: 5px;
   margin-left: 10px;
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  z-index: 4;
+  position: absolute;
 }
 
 .about img{
@@ -574,4 +584,15 @@ a{
 
 .social-contact i:hover{
   color: var(--main-color);
+}
+
+
+
+
+@keyframes anim{
+  0% {margin-top:0px;}
+  25% {margin-left: 200px; width: 2000px;rotate: 100deg;}
+  50% {margin-left: 200px; margin-top: 500px; width: 1000px; height: 500px;rotate: 200deg; }
+  75% {margin-top: 500px;height: 200px;rotate: 300deg;}
+  100%{margin-top:0px;}
 }
