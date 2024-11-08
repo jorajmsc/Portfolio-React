@@ -110,10 +110,10 @@ function Home() {
       <section className="about flex-box" id='about'>
         <img src="https://cdn.gadgets360.com/content/assets/entertainment/shah-rukh-khan-poster.jpg"/>
         <div className='about-right'>
-          <div className="hi-head">
-            <h2>Hi!</h2>
-            <img src={jrj} alt='' className='about-dash'></img>
-          </div>
+        <div className='hi-head-cont'>
+        <h2>Hi!</h2>
+        <div className="hi-head"></div>
+        </div>
           <h2>I'm a <span>{currentText}</span></h2>
           <p>I'm dedicated in building intuitive and high-performance mobile applications. With a deep understanding of Android frameworks and a passion for crafting seamless user experiences. With a deep understanding of Android frameworks and a passion for crafting seamless user experiences.</p>
 

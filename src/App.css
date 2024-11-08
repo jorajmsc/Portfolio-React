@@ -180,6 +180,13 @@ a{
 }
 
 .hi-head{
+  background-color: var(--main-color);
+  width: 50px;
+  height: 8px;
+  margin-left: 10px;
+}
+
+.hi-head-cont{
   display: flex;
   align-items: center;
 }
