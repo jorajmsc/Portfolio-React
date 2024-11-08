@@ -82,7 +82,7 @@ a{
   letter-spacing: .5px;
 }
 
-.item a:hove{
+.item a:hover{
   color: var(--main-color);
   cursor: pointer;
   text-decoration: none;
